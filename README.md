@@ -1,1 +1,11 @@
 # techin515_lab3
+Katherine Chen
+
+Discussion
+Not all 10 questions are equally important for determining the result and it feels like a few specific ones are more decisive. From my observation, some users gave slightly different answers but still ended up in the same house, which suggests that certain questions have more impact than others.
+In terms of user experience, I noticed that some of the question or answer texts are too long for my display, which causes line breaks and makes it harder for users to read smoothly. For example, Question 8 and 9 have longer sentences that don’t fit well on the screen. If I can’t change the hardware and still want to keep the font readable, I would consider simplifying the wording of some questions and answers to make the experience more fluid.
+
+To improve the model's accuracy (0.83), I can collect more training data and make sure it’s balanced across all houses. I can also try tuning the depth of the decision tree to avoid overfitting.
+ For efficiency, since decision trees are already pretty lightweight, I can keep the number of features small and make sure the model stays simple enough to run fast on the ESP32.
+To enhance the user experience, I would like to add a buzzer and a motion sensor such as an accelerometer or gyroscope. The buzzer would make the interaction more engaging by playing sounds when a new question appears or when the sorting result is revealed. Moreover, instead of using physical buttons, the motion sensor would allow users to answer questions by waving their hand in different directions. For example, waving left, right, up, or down could correspond to selecting one of the four answer options. This gesture-based interaction would feel more magical and immersive, aligning with the theme of the sorting hat experience.
+Since I want to use a motion sensor to let users answer by waving their hand, the input data will be very different. Instead of simple numbers like 1, 2, 3, 4, the data will be continuous and based on how the hand moves over time. Because of this, decision trees may not work well. I would probably use a CNN instead, since it’s better at understanding patterns in motion data like this.
