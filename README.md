@@ -1,5 +1,5 @@
 # techin515_lab3
-Katherine Chen
+Video: https://drive.google.com/file/d/1vYEdn_O7bJmguYoIf4nerGwZ7F5-wkBL/view?usp=sharing
 
 Discussion:
 - Not all 10 questions are equally important for determining the result and it feels like a few specific ones are more decisive. From my observation, some users gave slightly different answers but still ended up in the same house, which suggests that certain questions have more impact than others.
